@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeLoginBar from "./homeLoginBar";
+import HomeLoginBar from "./LoginBar";
 
 function Home() {
     return (

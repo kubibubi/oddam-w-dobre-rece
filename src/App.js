@@ -1,7 +1,7 @@
 import React from 'react';
-import Home from "./components/home/home";
+import Home from "./components/Home/Home";
 
-function App(props) {
+function App() {
   return (
       <Home />
   );
