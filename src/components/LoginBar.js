@@ -8,5 +8,4 @@ function LoginBar() {
         </div>
     );
 }
-
 export default LoginBar;

@@ -1,10 +1,9 @@
 import React from 'react';
-import HomeLoginBar from "./LoginBar";
+import LoginBar from "./LoginBar";
 
 function Home() {
     return (
-        <HomeLoginBar />
+        <LoginBar />
     );
 }
-
 export default Home;
