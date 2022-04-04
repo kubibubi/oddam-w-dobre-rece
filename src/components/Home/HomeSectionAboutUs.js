@@ -4,9 +4,9 @@ import People from '../../assets/People.png';
 import Signatures from '../../assets/Signature.svg';
 import Decoration from '../Decoration';
 
-function HomeAboutUs(props) {
+function HomeSectionAboutUs() {
     return (
-        <section className="home__about__us">
+        <section className="home__section__about__us">
             <div className="about__us__content__wrapper">
                 <h3>O nas</h3>
                 <Decoration />
@@ -18,4 +18,4 @@ function HomeAboutUs(props) {
     );
 }
 
-export default HomeAboutUs;
+export default HomeSectionAboutUs;
