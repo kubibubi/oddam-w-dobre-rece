@@ -7,6 +7,7 @@ import HomeBannerGuide from "./HomeBannerGuide";
 import HomeBannerButton from "./HomeBannerButton";
 import HomeSectionAboutUs from "./HomeSectionAboutUs";
 import HomeSectionSupport from "./HomeSectionSupport";
+import HomeSectionContact from "./HomeSectionContact";
 
 function Home() {
     return (
@@ -20,6 +21,7 @@ function Home() {
             <HomeBannerButton />
             <HomeSectionAboutUs />
             <HomeSectionSupport />
+            <HomeSectionContact />
         </>
     );
 }
