@@ -23,19 +23,22 @@ function NavBar() {
                           spy={true}
                           smooth={true}
                           offset={50}
-                          duration={500}>O nas</Link></li>
+                          duration={500}>O nas</Link>
+                </li>
                 <li className='navigation__element'>
                     <Link to="home__section__support"
                           spy={true}
                           smooth={true}
                           offset={50}
-                          duration={500}>Fundacja i organizacje</Link></li>
+                          duration={500}>Fundacja i organizacje</Link>
+                </li>
                 <li className='navigation__element'>
                     <Link to="home__section__contact"
                           spy={true}
                           smooth={true}
                           offset={50}
-                          duration={500}>Kontakt</Link></li>
+                          duration={500}>Kontakt</Link>
+                </li>
             </ul>
         </nav>
     );

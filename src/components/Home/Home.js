@@ -15,10 +15,10 @@ function Home() {
             <HomeBanner/>
             <HomeBannerYellow collectedBags={10}
                               supportedOrganizations={5}
-                              organizedCollections={7} />
+                              organizedCollections={7}/>
             <HomeBannerSmall/>
-            <HomeBannerGuide />
-            <HomeBannerButton />
+            <HomeBannerGuide/>
+            <HomeBannerButton/>
             <HomeSectionAboutUs/>
             <HomeSectionSupport/>
             <HomeSectionContact/>
