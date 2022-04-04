@@ -12,16 +12,16 @@ import HomeSectionContact from "./HomeSectionContact";
 function Home() {
     return (
         <>
-            <HomeBanner />
+            <HomeBanner name='start'/>
             <HomeBannerYellow collectedBags={10}
                               supportedOrganizations={5}
                               organizedCollections={7} />
-            <HomeBannerSmall />
+            <HomeBannerSmall name='howto'/>
             <HomeBannerGuide />
             <HomeBannerButton />
-            <HomeSectionAboutUs />
-            <HomeSectionSupport />
-            <HomeSectionContact />
+            <HomeSectionAboutUs name='about'/>
+            <HomeSectionSupport name='support'/>
+            <HomeSectionContact name='contact'/>
         </>
     );
 }
