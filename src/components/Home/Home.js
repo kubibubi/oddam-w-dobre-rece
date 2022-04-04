@@ -4,6 +4,7 @@ import HomeBanner from "./HomeBanner";
 import HomeBannerYellow from "./HomeBannerYellow";
 import HomeBannerSmall from "./HomeBannerSmall";
 import HomeBannerGuide from "./HomeBannerGuide";
+import HomeBannerButton from "./HomeBannerButton";
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
                               organizedCollections={7} />
             <HomeBannerSmall />
             <HomeBannerGuide />
+            <HomeBannerButton />
         </>
     );
 }
