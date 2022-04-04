@@ -10,13 +10,13 @@ function HomeBanner() {
         <>
             <LoginBar/>
             <NavBar/>
-            <div className="home__banner">
+            <section className="home__banner">
                 <h3>Zacznij pomagać!</h3>
                 <h3>Oddaj niechciane rzeczy w zaufane ręce</h3>
                 <Decoration/>
                 <ButtonAction btnText='ODDAJ RZECZY'/>
                 <ButtonAction btnText='ZORGANIZUJ ZBIÓRKĘ'/>
-            </div>
+            </section>
         </>
     );
 }
