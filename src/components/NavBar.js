@@ -1,44 +1,42 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from "react-scroll";
+import {Link, animateScroll as scroll} from "react-scroll";
 
 function NavBar() {
     return (
         <nav className='navigation__main'>
-            <Link activeClass="active"
-               spy={true}
-               smooth={true}
-               offset={-70}
-               duration={500}
-               onClick={this.scrollToTop}
-               href="">Start</Link>
-            <Link activeClass="active"
-               to="howto"
-               spy={true}
-               smooth={true}
-               offset={-70}
-               duration={500}
-               href="">O co chodzi?</Link>
-            <Link activeClass="active"
-               to="about"
-               spy={true}
-               smooth={true}
-               offset={-70}
-               duration={500}
-               href="">O nas</Link>
-            <Link activeClass="active"
-               to="support"
-               spy={true}
-               smooth={true}
-               offset={-70}
-               duration={500}
-               href="">Fundacja i organizacje</Link>
-            <Link activeClass="active"
-               to="contact"
-               spy={true}
-               smooth={true}
-               offset={-70}
-               duration={500}
-               href="">Kontakt</Link>
+            <ul>
+                <li className='navigation__element'>
+                    <Link to='home__banner'
+                          spy={true}
+                          smooth={true}
+                          offset={50}
+                          duration={500}>Start</Link>
+                </li>
+                <li className='navigation__element'>
+                    <Link to="home__banner__guide"
+                          spy={true} smooth={true}
+                          offset={50}
+                          duration={500}>O co chodzi?</Link>
+                </li>
+                <li className='navigation__element'>
+                    <Link to="home__section__about__us"
+                          spy={true}
+                          smooth={true}
+                          offset={50}
+                          duration={500}>O nas</Link></li>
+                <li className='navigation__element'>
+                    <Link to="home__section__support"
+                          spy={true}
+                          smooth={true}
+                          offset={50}
+                          duration={500}>Fundacja i organizacje</Link></li>
+                <li className='navigation__element'>
+                    <Link to="home__section__contact"
+                          spy={true}
+                          smooth={true}
+                          offset={50}
+                          duration={500}>Kontakt</Link></li>
+            </ul>
         </nav>
     );
 }
