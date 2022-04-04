@@ -5,6 +5,7 @@ import HomeBannerYellow from "./HomeBannerYellow";
 import HomeBannerSmall from "./HomeBannerSmall";
 import HomeBannerGuide from "./HomeBannerGuide";
 import HomeBannerButton from "./HomeBannerButton";
+import HomeAboutUs from "./HomeAboutUs";
 
 function Home() {
     return (
@@ -16,6 +17,7 @@ function Home() {
             <HomeBannerSmall />
             <HomeBannerGuide />
             <HomeBannerButton />
+            <HomeAboutUs />
         </>
     );
 }
