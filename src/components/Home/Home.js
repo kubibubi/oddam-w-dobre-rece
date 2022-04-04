@@ -3,6 +3,7 @@ import React from 'react';
 import HomeBanner from "./HomeBanner";
 import HomeBannerYellow from "./HomeBannerYellow";
 import HomeBannerSmall from "./HomeBannerSmall";
+import HomeBannerGuide from "./HomeBannerGuide";
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
                               supportedOrganizations={5}
                               organizedCollections={7} />
             <HomeBannerSmall />
+            <HomeBannerGuide />
         </>
     );
 }
