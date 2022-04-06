@@ -2,10 +2,16 @@
 @import 'settings/fonts';
 @import 'settings/colors';
 
+@import 'elements/login_bar';
+@import 'elements/home_banner';
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-family: $font-base;
 }
