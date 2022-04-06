@@ -1,0 +1,18 @@
+.login__create__wrapper {
+  font-size: 0.875rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.login__link, .create__link {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: $color-accent-login-font;
+  font-weight: 400;
+}
+
+.create__link {
+  border: 1px solid $color-accent-login-box;
+}
