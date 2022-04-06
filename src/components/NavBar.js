@@ -5,7 +5,7 @@ import {Link as LinkRoute} from 'react-router-dom';
 function NavBar() {
     return (
         <nav className='navigation__main'>
-            <ul>
+            <ul className='navigation__wrapper'>
                 <li className='navigation__element'>
                     <Link to='home__banner'
                           spy={true}
