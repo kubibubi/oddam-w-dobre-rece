@@ -11,8 +11,14 @@
   text-decoration: none;
   color: $color-accent-login-font;
   font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .create__link {
   border: 1px solid $color-accent-login-box;
+
+  &:hover {
+    background-color: lighten($color-accent-login-box, 10%);
+  }
 }
