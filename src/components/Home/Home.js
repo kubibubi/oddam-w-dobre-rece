@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../../scss/main.scss';
+
 import HomeBanner from "./HomeBanner";
 import HomeBannerYellow from "./HomeBannerYellow";
 import HomeBannerSmall from "./HomeBannerSmall";
