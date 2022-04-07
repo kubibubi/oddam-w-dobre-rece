@@ -1,7 +1,7 @@
 import React from 'react';
 
 import LoginBar from '../LoginBar/LoginBar';
-import NavBar from '../NavBar';
+import NavBar from '../NavBar/NavBar';
 import Decoration from '../Decoration';
 
 function Login() {

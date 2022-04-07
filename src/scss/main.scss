@@ -2,7 +2,7 @@
 @import 'settings/fonts';
 @import 'settings/colors';
 
-@import 'elements/nav_bar';
+@import '../components/NavBar/NavBar';
 
 * {
   box-sizing: border-box;
