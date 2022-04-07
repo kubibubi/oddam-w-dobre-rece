@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Decoration from '../Decoration/Decoration';
+import Decoration from '../../Decoration/Decoration';
 
-function HomeSectionSupport() {
+function Support() {
     return (
         <section className="home__section__support">
             <div className="support__content__wrapper">
@@ -23,4 +23,4 @@ function HomeSectionSupport() {
     );
 }
 
-export default HomeSectionSupport;
+export default Support;

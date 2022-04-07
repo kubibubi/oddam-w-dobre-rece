@@ -1,8 +1,8 @@
 import React from 'react';
 
-import ButtonAction from '../ButtonAction/ButtonAction';
+import ButtonAction from '../../ButtonAction/ButtonAction';
 
-function HomeBannerButton() {
+function BannerButton() {
     return (
         <section className="home__banner__button">
             <ButtonAction btnText='ODDAJ RZECZY'/>
@@ -10,4 +10,4 @@ function HomeBannerButton() {
     );
 }
 
-export default HomeBannerButton;
+export default BannerButton;

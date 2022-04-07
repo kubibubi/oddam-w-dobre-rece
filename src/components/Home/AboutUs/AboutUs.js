@@ -1,10 +1,10 @@
 import React from 'react';
 
-import People from '../../assets/People.png';
-import Signatures from '../../assets/Signature.svg';
-import Decoration from '../Decoration/Decoration';
+import People from './People.png';
+import Signatures from './Signature.svg';
+import Decoration from '../../Decoration/Decoration';
 
-function HomeSectionAboutUs() {
+function AboutUs() {
     return (
         <section className="home__section__about__us">
             <div className="about__us__content__wrapper">
@@ -18,4 +18,4 @@ function HomeSectionAboutUs() {
     );
 }
 
-export default HomeSectionAboutUs;
+export default AboutUs;

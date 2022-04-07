@@ -1,9 +1,9 @@
 import React from 'react';
 
-import LoginBar from "../LoginBar/LoginBar";
-import NavBar from "../NavBar/NavBar";
-import ButtonAction from '../ButtonAction/ButtonAction';
-import Decoration from '../Decoration/Decoration';
+import LoginBar from "../../LoginBar/LoginBar";
+import NavBar from "../../NavBar/NavBar";
+import ButtonAction from '../../ButtonAction/ButtonAction';
+import Decoration from '../../Decoration/Decoration';
 
 function HomeBanner() {
     return (

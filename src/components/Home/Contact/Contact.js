@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Decoration from '../Decoration/Decoration';
-import Footer from '../Footer/Footer';
+import Decoration from '../../Decoration/Decoration';
+import Footer from '../../Footer/Footer';
 
-function HomeSectionContact() {
+function Contact() {
     return (
         <section className="home__section__contact">
             <div className="section__content__wrapper">
@@ -29,4 +29,4 @@ function HomeSectionContact() {
     );
 }
 
-export default HomeSectionContact;
+export default Contact;

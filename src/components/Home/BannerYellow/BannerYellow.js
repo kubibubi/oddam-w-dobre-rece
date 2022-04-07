@@ -1,6 +1,6 @@
 import React from 'react';
 
-function HomeBannerYellow({ collectedBags, supportedOrganizations, organizedCollections }) {
+function BannerYellow({ collectedBags, supportedOrganizations, organizedCollections }) {
     return (
         <section className="home__banner__yellow">
             <div className="banner__yellow__info">
@@ -22,4 +22,4 @@ function HomeBannerYellow({ collectedBags, supportedOrganizations, organizedColl
     );
 }
 
-export default HomeBannerYellow;
+export default BannerYellow;

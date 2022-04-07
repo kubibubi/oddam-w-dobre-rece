@@ -2,28 +2,28 @@ import React from 'react';
 
 import '../../scss/main.scss';
 
-import HomeBanner from "./HomeBanner";
-import HomeBannerYellow from "./HomeBannerYellow";
-import HomeBannerSmall from "./HomeBannerSmall";
-import HomeBannerGuide from "./HomeBannerGuide";
-import HomeBannerButton from "./HomeBannerButton";
-import HomeSectionAboutUs from "./HomeSectionAboutUs";
-import HomeSectionSupport from "./HomeSectionSupport";
-import HomeSectionContact from "./HomeSectionContact";
+import BannerMain from "./BannerMain/BannerMain";
+import BannerYellow from "./BannerYellow/BannerYellow";
+import BannerSmall from "./BannerSmall/BannerSmall";
+import BannerGuide from "./BannerGuide/BannerGuide";
+import BannerButton from "./BannerButton/BannerButton";
+import AboutUs from "./AboutUs/AboutUs";
+import Support from "./Support/Support";
+import Contact from "./Contact/Contact";
 
 function Home() {
     return (
         <>
-            <HomeBanner/>
-            <HomeBannerYellow collectedBags={10}
-                              supportedOrganizations={5}
-                              organizedCollections={7}/>
-            <HomeBannerSmall/>
-            <HomeBannerGuide/>
-            <HomeBannerButton/>
-            <HomeSectionAboutUs/>
-            <HomeSectionSupport/>
-            <HomeSectionContact/>
+            <BannerMain/>
+            <BannerYellow collectedBags={10}
+                          supportedOrganizations={5}
+                          organizedCollections={7}/>
+            <BannerSmall/>
+            <BannerGuide/>
+            <BannerButton/>
+            <AboutUs/>
+            <Support/>
+            <Contact/>
         </>
     );
 }

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import IconShirt from '../../assets/Icon-1.png'
-import IconBag from '../../assets/Icon-2.png'
-import IconGlass from '../../assets/Icon-3.png'
-import IconUroboros from '../../assets/Icon-4.png'
+import IconShirt from './Icon-1.png'
+import IconBag from './Icon-2.png'
+import IconGlass from './Icon-3.png'
+import IconUroboros from './Icon-4.png'
 
-function HomeBannerGuide(props) {
+function BannerGuide(props) {
     return (
         <section className="home__banner__guide">
             <div className="banner__guide__info">
@@ -36,4 +36,4 @@ function HomeBannerGuide(props) {
     );
 }
 
-export default HomeBannerGuide;
+export default BannerGuide;
