@@ -3,7 +3,7 @@ import {Link as LinkRoute} from 'react-router-dom';
 
 import LoginBar from '../LoginBar/LoginBar';
 import NavBar from '../NavBar/NavBar';
-import Decoration from '../Decoration';
+import Decoration from '../Decoration/Decoration';
 
 function Logout() {
     return (

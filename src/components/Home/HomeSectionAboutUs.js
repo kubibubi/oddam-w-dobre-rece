@@ -2,7 +2,7 @@ import React from 'react';
 
 import People from '../../assets/People.png';
 import Signatures from '../../assets/Signature.svg';
-import Decoration from '../Decoration';
+import Decoration from '../Decoration/Decoration';
 
 function HomeSectionAboutUs() {
     return (
@@ -13,7 +13,7 @@ function HomeSectionAboutUs() {
                 <p className="about__us__text">Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.</p>
                 <img src={Signatures} alt="Boss Signature."/>
             </div>
-            <img src={People} alt="Photo of happy people of different race."/>
+            <img src={People} alt="Happy people of different race."/>
         </section>
     );
 }

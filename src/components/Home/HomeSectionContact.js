@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Decoration from '../Decoration';
+import Decoration from '../Decoration/Decoration';
 import Footer from '../Footer';
 
 function HomeSectionContact() {

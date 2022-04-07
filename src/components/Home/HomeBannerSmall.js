@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Decoration from '../Decoration'
+import Decoration from '../Decoration/Decoration'
 
 function HomeBannerSmall() {
     return (

@@ -2,7 +2,7 @@ import React from 'react';
 
 import LoginBar from '../LoginBar/LoginBar';
 import NavBar from '../NavBar/NavBar';
-import Decoration from '../Decoration';
+import Decoration from '../Decoration/Decoration';
 
 function Login() {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import DecorationImage from '../assets/Decoration.svg'
+import DecorationImage from '../../assets/Decoration.svg'
 
 function Decoration() {
     return (
