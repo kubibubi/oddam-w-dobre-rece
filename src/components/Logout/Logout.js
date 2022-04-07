@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link as LinkRoute} from 'react-router-dom';
 
-import LoginBar from '../LoginBar';
+import LoginBar from '../LoginBar/LoginBar';
 import NavBar from '../NavBar';
 import Decoration from '../Decoration';
 

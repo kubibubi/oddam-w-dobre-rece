@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link as LinkRoute} from 'react-router-dom';
 
+import './LoginBar.scss'
+
 function LoginBar() {
     return (
         <div className="login__create__wrapper">

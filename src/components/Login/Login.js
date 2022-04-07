@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LoginBar from '../LoginBar';
+import LoginBar from '../LoginBar/LoginBar';
 import NavBar from '../NavBar';
 import Decoration from '../Decoration';
 

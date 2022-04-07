@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LoginBar from "../LoginBar";
+import LoginBar from "../LoginBar/LoginBar";
 import NavBar from "../NavBar";
 import ButtonAction from '../ButtonAction';
 import Decoration from '../Decoration';
